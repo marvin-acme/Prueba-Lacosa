@@ -51,7 +51,7 @@
       --add-opens com.azure.http.netty/com.azure.core.http.netty=ALL-UNNAMED
       --add-opens com.azure.http.netty/com.azure.core.http.netty.implementation=ALL-UNNAMED
     </javaModulesSurefireArgLine>
-    <boring-ssl-classifier></boring-ssl-classifier>
+    <boring-ssl-classifier/>
 
     <!-- Enables fail on deprecated API usage. -->
     <compiler.failondeprecatedstatus/>
@@ -150,7 +150,7 @@
     <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-common</artifactId>
-      <version>4.1.118.Final</version>  <!-- {x-version-update;io.netty:netty-common;external_dependency} -->
+      <version>4.1.119.Final</version>  <!-- {x-version-update;io.netty:netty-common;external_dependency} -->
     </dependency>
     <!-- test dependencies on azure-core, because we want to run tests inherited from this module using Netty -->
     <dependency>
